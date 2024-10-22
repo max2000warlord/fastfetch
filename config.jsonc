@@ -1,0 +1,107 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "kitty",
+    "source": "/home/max/.config/fastfetch/artix.png",
+    "height": 15,
+    "padding": {
+      "top": 1,
+      "right": 1,
+      "left": 1
+    }
+  },
+  "display": {
+    "separator": ""
+  },
+  "modules": [
+    {
+      "type": "custom", // HardwareStart
+      "format": "\u001b[38;2;16;175;223m╭───────┤ \u001b[1;34mHardware Information\u001b[38;2;16;175;223m ├───────╮\u001b[0m"
+    },
+    {
+      "type": "cpu",
+      "key": "\u001b[38;2;255;0;0m \u001b[38;2;255;255;255m \u001b[0m",
+      "format": "{1} @ {7}"
+    },
+    {
+      "type": "disk",
+      "key": "\u001b[1;32m󰋊 \u001b[38;2;255;255;255m \u001b[0m" // Green color for disk icon,
+    },
+    {
+      "type": "memory",
+      "key": "\u001b[1;33m \u001b[38;2;255;255;255m \u001b[0m"
+    },
+    {
+      "type": "display",
+      "key": "󰍹 \u001b[38;2;255;255;255m \u001b[0m"
+    },
+    {
+      "type": "battery",
+      "key": "󰄌 \u001b[38;2;255;255;255m \u001b[0m"
+    },
+    //{
+    //  "type": "custom",
+    //  "format": "\u001b[38;2;16;175;223m│\u001b[0m"
+    //},
+    {
+      "type": "custom", // SoftwareStart
+      "format": "\u001b[38;2;16;175;223m├───────┤ \u001b[1;34mSoftware Information\u001b[38;2;16;175;223m ├───────┤\u001b[0m"
+    },
+    {
+      "type": "title",
+      "key": "\u001b[38;2;255;255;255m  \u001b[0m",
+      "format": "{1}@{2}"
+    },
+    {
+      "type": "os",
+      "key": "\u001b[38;2;16;175;223m\u001b[38;2;255;255;255m  \u001b[0m" //Find your distro's logo at https://www.nerdfonts.com/cheat-sheet
+    },
+    {
+      "type": "kernel",
+      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "format": "{2}"
+    },
+    {
+      "type": "initsystem",
+      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
+    },
+    {
+      "type": "wm",
+      "key": "\u001b[38;2;0;164;245m\u001b[38;2;255;255;255m  \u001b[0m",
+      "format": "{1}"
+    },
+    {
+      "type": "terminal",
+      "key": "\u001b[38;2;0;255;0m\u001b[38;2;255;255;255m  \u001b[0m",
+      "format": "{5}"
+    },
+    {
+      "type": "shell",
+      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
+    },
+    {
+      "type": "packages",
+      "key": "\u001b[38;2;255;204;0m󰮯\u001b[38;2;255;255;255m  \u001b[0m",
+      "format": "{1}"
+    },
+    {
+      "type": "wifi",
+      "key": "\u001b[38;2;255;255;255m  \u001b[0m",
+      "format": "{4}"
+    },
+    {
+      "type": "wifi",
+      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "format": "{3}"
+    },
+    {
+      "type": "wifi",
+      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "format": "{11}"
+    },
+    {
+      "type": "custom", // InformationEnd
+      "format": "\u001b[38;2;16;175;223m╰──────────────────────────────────────╯\u001b[0m\n"
+    }
+  ]
+}

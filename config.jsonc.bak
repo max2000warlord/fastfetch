@@ -1,0 +1,143 @@
+  .1password
+  .cache
+  .cargo
+  .config
+    1Password
+    autostart
+    BraveSoftware
+    chromium
+    dconf
+    fastfetch
+       config.jsonc
+    fontconfig
+    freshfetch
+    GIMP
+    google-chrome
+    google-chrome-beta
+    google-chrome-unstable
+    gtk-2.0
+    gtk-3.0
+    gtk-4.0
+    kate
+    KDE
+    kde.org
+    kdeconnect
+    kdedefaults
+    kitty
+    lazygit
+    libaccounts-glib
+    lvim
+    menus
+    microsoft-edge-dev
+    neofetch
+    neovide
+    nvim
+    paru
+    plasma-workspace
+    pulse
+    session
+    systemd
+    vivaldi
+    vivaldi-snapshot
+    xsettingsd
+    󰈚 akregatorrc
+    󰈚 arkrc
+    󰈚 baloofileinformationrc
+    󰈚 baloofilerc
+    󰈚 bluedevilglobalrc
+    󰈚 discoverrc
+    󰈚 dolphinrc
+    󰈚 drkonqirc
+    󰈚 filetypesrc
+    󰈚 gtkrc
+    󰈚 gtkrc-2.0
+    󰈚 kactivitymanagerd-statsrc
+    󰈚 kactivitymanagerdrc
+    󰈚 katemetainfos
+    󰈚 katerc
+    󰈚 kateschemarc
+    󰈚 katevirc
+    󰈚 kcminputrc
+    󰈚 kconf_updaterc
+    󰈚 kded5rc
+    󰈚 kdeglobals
+    󰈚 kfontinstuirc
+    󰈚 kfontviewrc
+    󰈚 kglobalshortcutsrc
+    󰈚 kgpgrc
+    󰈚 khotkeysrc
+    󰈚 kleopatrarc
+    󰈚 kmixrc
+    󰈚 konsolerc
+    󰈚 krunnerrc
+    󰈚 kscreenlockerrc
+    󰈚 ksmserverrc
+    󰈚 ktimezonedrc
+    󰈚 kwalletrc
+    󰈚 kwinrc
+    󰈚 kwinrulesrc
+    󰈚 kwritemetainfos
+    󰈚 kwriterc
+    󰈚 kxkbrc
+    󰈚 mimeapps.list
+    󰈚 okularpartrc
+    󰈚 okularrc
+    󰈚 plasma-localerc
+    󰈚 plasma-org.kde.plasma.desktop-appletsrc
+    󰈚 plasma-welcomerc
+    󰈚 PlasmaDiscoverUpdates
+    󰈚 plasmanotifyrc
+    󰈚 plasmarc
+    󰈚 plasmashellrc
+    󰈚 powerdevilrc
+    󰈚 powermanagementprofilesrc
+     QtProject.conf
+    󰈚 spectaclerc
+    󰈚 systemmonitorrc
+    󰈚 systemsettingsrc
+    󰈚 touchpadxlibinputrc
+    󰈚 trashrc
+     Trolltech.conf
+    󰈚 user-dirs.dirs
+    󰈚 user-dirs.locale
+    󰈚 xdg-desktop-portal-kderc
+  .gnupg
+  .ipython
+  .lldb
+  .local
+  .modular
+  .mozilla
+  .npm
+  .oh-my-zsh
+  .pki
+  1password
+  Desktop
+  Documents
+  Downloads
+  freshfetch
+  Music
+  Pictures
+  Public
+  Templates
+  Videos
+  󰈚 .bash_history
+  󰈚 .bash_logout
+   .bash_profile
+   .bashrc
+   .fonts.conf
+   .gitconfig
+  󰈚 .gtkrc-2.0
+  󰈚 .histfile
+   .p10k.zsh
+  󰈚 .shell.pre-oh-my-zsh
+  󰈚 .zcompdump
+  󰈚 .zcompdump-ArchBTW-5.9
+  󰈚 .zcompdump-ArchBTW-5.9.zwc
+  󰈚 .zsh_history
+   .zshrc
+  󰈚 .zshrc.pre-oh-my-zsh
+  󰈚 config.jsonc.old
+  󰈚 hello
+   hello-world.rs
+  󰈚 mpa.asc
+  󰈚 secret-key.asc
