@@ -1,3 +1,3 @@
 My fastfetch setup
 
-![Artix](fastfetch-artix.png)
+![Void](config-example.png)
