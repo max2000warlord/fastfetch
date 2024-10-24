@@ -5,9 +5,9 @@
     "source": "/home/max/.config/fastfetch/void-white-text.png",
     "height": 15,
     "padding": {
-      "top": 1,
+      "top": 0,
       "right": 1,
-      "left": 1
+      "left": 0
     }
   },
   "display": {
@@ -97,8 +97,7 @@
     },
     {
       "type": "packages",
-      "key": "\u001b[38;2;255;204;0m󰮯\u001b[38;2;255;255;255m  \u001b[0m",
-      "format": "{1}"
+      "key": "\u001b[38;2;255;204;0m\u001b[38;2;255;255;255m  \u001b[0m"
     },
     {
       "type": "wifi",
