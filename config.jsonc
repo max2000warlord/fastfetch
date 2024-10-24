@@ -2,7 +2,7 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
     "type": "kitty",
-    "source": "/home/max/.config/fastfetch/artix.png",
+    "source": "/home/max/.config/fastfetch/void-white-text.png",
     "height": 15,
     "padding": {
       "top": 1,
@@ -15,13 +15,21 @@
   },
   "modules": [
     {
-      "type": "custom", // HardwareStart
-      "format": "\u001b[38;2;16;175;223m╭───────┤ \u001b[1;34mHardware Information\u001b[38;2;16;175;223m ├───────╮\u001b[0m"
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m╔════════════════════╗\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m\u001b[38;2;71;128;97m║\u001b[38;2;171;194;171mHardware Information\u001b[38;2;71;128;97m║\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m╚════════════════════╝\u001b[0m"
     },
     {
       "type": "cpu",
       "key": "\u001b[38;2;255;0;0m \u001b[38;2;255;255;255m \u001b[0m",
-      "format": "{1} @ {7}"
+      "format": "{1}"
     },
     {
       "type": "disk",
@@ -41,11 +49,19 @@
     },
     //{
     //  "type": "custom",
-    //  "format": "\u001b[38;2;16;175;223m│\u001b[0m"
+    //  "format": "\u001b[38;2;71;128;97m│\u001b[0m"
     //},
     {
-      "type": "custom", // SoftwareStart
-      "format": "\u001b[38;2;16;175;223m├───────┤ \u001b[1;34mSoftware Information\u001b[38;2;16;175;223m ├───────┤\u001b[0m"
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m╔════════════════════╗\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m\u001b[38;2;71;128;97m║\u001b[38;2;171;194;171mSoftware Information\u001b[38;2;71;128;97m║\u001b[0m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;71;128;97m╚════════════════════╝\u001b[0m"
     },
     {
       "type": "title",
@@ -54,16 +70,16 @@
     },
     {
       "type": "os",
-      "key": "\u001b[38;2;16;175;223m\u001b[38;2;255;255;255m  \u001b[0m" //Find your distro's logo at https://www.nerdfonts.com/cheat-sheet
+      "key": "\u001b[38;2;71;128;97m\u001b[38;2;255;255;255m  \u001b[0m" //Find your distro's logo at https://www.nerdfonts.com/cheat-sheet
     },
     {
       "type": "kernel",
-      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "key": "\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
       "format": "{2}"
     },
     {
       "type": "initsystem",
-      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
+      "key": "\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
     },
     {
       "type": "wm",
@@ -77,7 +93,7 @@
     },
     {
       "type": "shell",
-      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
+      "key": "\u001b[38;2;255;255;255m  󱞪 \u001b[0m"
     },
     {
       "type": "packages",
@@ -91,17 +107,13 @@
     },
     {
       "type": "wifi",
-      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "key": "\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
       "format": "{3}"
     },
     {
       "type": "wifi",
-      "key": "\u001b[38;2;16;175;223m│\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
+      "key": "\u001b[38;2;255;255;255m  󱞪 \u001b[0m",
       "format": "{11}"
-    },
-    {
-      "type": "custom", // InformationEnd
-      "format": "\u001b[38;2;16;175;223m╰──────────────────────────────────────╯\u001b[0m\n"
     }
   ]
 }
